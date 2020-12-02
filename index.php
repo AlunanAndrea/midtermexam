@@ -12,7 +12,7 @@
         <div class="header">
             <div id="floom"><img src="svg/floom.svg" width="400px"></div>
             <div id="menu">
-                <a href><img src="svg/github.svg"></a>
+                <a href = "https://github.com/AlunanAndrea/midtermexam"><img src="svg/github.svg"></a>
                 <a href="https://www.floom.com/shop/flowers"><img src="svg/shop.svg"></a>
                 <a href="https://merch.floom.com"><img src="svg/merch.svg"></a>
             </div>
