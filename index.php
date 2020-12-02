@@ -47,6 +47,7 @@
                 <img id="butterfly" src="svg/butterfly.svg" width="50px">
                 <img id="butterfly1" src="svg/butterfly.svg"width="50px">
                 <img id="butterfly2" src="svg/butterfly.svg"width="50px">
+		<img id="text" src="svg/text.svg" width="800px">
            
 
 
