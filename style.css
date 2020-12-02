@@ -208,6 +208,13 @@ body{
         100% { transform: skewX(1px) translate(100px,-80px); }
     }
 
+.content #text{
+    position: absolute;
+    right:0;
+    top: 20px;
+}
+
+
 
 
 
@@ -223,13 +230,7 @@ body{
     background-color: cadetblue;
     }
     
-    .menu ul {
-        list-style-type: none;
-        margin:150px 0px 250px 0px;
-    }
-    .menu li{
-        margin-bottom:50px;
-    }
+
     
     .footer{
         
