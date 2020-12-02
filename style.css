@@ -1,0 +1,257 @@
+body{
+    background-color: rgba(228, 111, 15, 0.479);;
+    
+    }
+    
+    .header{
+        background-color: rgb(218, 21, 168);
+        width: 1500px;
+        height: 150px;
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 0 auto;
+        display: flex;
+    
+    }
+    .header #floom{
+        margin: 0 auto;
+
+        width: 400px;
+    
+    }
+    .header #floom img{
+        position: absolute;
+    }
+    .header #menu{
+        margin-top: 20px;
+    }
+    .header #menu img{
+        margin:0px 5px 0px 5px;
+    }
+    
+    .content{
+        width: 1500px;
+        height: 600px;
+        border-radius: 10px;
+        position: relative;
+        margin: 20px auto;
+        overflow: hidden;
+        display: flex;
+        background-color: rgb(135, 245, 234);
+    }  
+
+    .content #grass{
+        position: absolute;
+        bottom: 0;
+        left: -20px;
+    }
+    
+    .content #grass1{
+        position: absolute;
+        bottom: 0;
+        left: 130px;
+    }
+    
+    .content #grass2{
+        position: absolute;
+        bottom: 0;
+        left: 280px;
+    }
+    
+    .content #grass3{
+        position: absolute;
+        bottom: 0;
+        left: 430px;
+
+    }
+    
+    .content #grass4{
+        position: absolute;
+        bottom: 0;
+        left: 580px;
+    }
+    
+    .content #grass5{
+        position: absolute;
+        bottom: 0;
+        left: 730px;
+    }
+    
+    .content #grass6{
+        position: absolute;
+        bottom: 0;
+        left: 880px;
+
+    }
+    
+    .content #grass7{
+        position: absolute;
+        bottom: 0;
+        left: 1030px;
+
+    }
+    .content #grass8{
+        position: absolute;
+        bottom: 0;
+        left: 1180px;
+
+    }
+    .content #grass9{
+        position: absolute;
+        bottom: 0;
+        left: 1330px;
+
+    }
+
+    .content #tree{
+        position: absolute;
+        left: -100px;
+        top: -50px;
+    
+    }
+    .content #mountain{
+        position: absolute;
+    }
+    .content #flower{
+        position: absolute;
+        top:60px;
+    }
+    .content #flower1{
+        position: absolute;
+        top:90px;
+        left:100px;
+    }
+    .content #flower2{
+        position: absolute;
+        top:30px;
+        left: 200px;
+    }
+    .content #flower3{
+        position: absolute;
+        top:140px;
+        left: 150px;
+    }
+    .content #flower4{
+        position: absolute;
+        top:180px;
+        left: 50px;
+    }
+    .content #flower5{
+        position: absolute;
+        top:60px;
+        left:300px;
+    }
+    .content #flower6{
+        position: absolute;
+        top:180px;
+        left:260px;
+    }
+    .content #flower7{
+        position: absolute;
+        top:120px;
+        left:250px;
+    }
+    .content #flower8{
+        position: absolute;
+        top:160px;
+        left:370px;
+    }
+    .content #flower9{
+        position: absolute;
+        top:30px;
+        left:400px;
+    }
+    .content #flower10{
+        position: absolute;
+        top:200px;
+        left:450px;
+    }
+    .content #butterfly{
+        position: absolute;
+        right: 250px;
+        bottom: 60px;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-name: bounce;
+        animation-timing-function: linear;
+
+    }
+    .content #butterfly1{
+        position: absolute;
+        left: 250px;
+        bottom: 200px;
+        transform: scalex(-1);
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-name: bounce2;
+        animation-timing-function: linear;
+
+    }
+    .content #butterfly2{
+        position: absolute;
+        left: 320px;
+        bottom: 150px;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-name: bounce;
+        animation-timing-function: linear;
+
+    }
+    @keyframes bounce {
+        0%   { transform: translate(100px,-50px); }
+        50%  { transform: translate(100px,-80px); }
+        100% { transform: translate(100px,-50px); }
+    }
+    @keyframes bounce2 {
+        0%   { transform: skewX(-1px) translate(100px,-80px);  }
+        50%  { transform: translate(100px,-50px); }
+        100% { transform: skewX(1px) translate(100px,-80px); }
+    }
+
+
+
+
+
+    
+    .menu{
+    height: 600px;
+    width: 200px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: cadetblue;
+    }
+    
+    .menu ul {
+        list-style-type: none;
+        margin:150px 0px 250px 0px;
+    }
+    .menu li{
+        margin-bottom:50px;
+    }
+    
+    .footer{
+        
+        background-color: rgba(228, 111, 15, 0.479);;
+        width: 1500px;
+        height: 150px;
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 0 auto;
+        display: flex;
+        position: relative;
+        text-align: center;
+
+    
+    }
+    
+    .footer i{
+    
+        margin: 0px 20px;
+      
+    }
+
+    .footer .foot{
+        margin: 0 auto;
+    }
